@@ -1,0 +1,94 @@
+<style>
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+
+    h1 {
+        color: blue;
+    }
+
+    .tag {
+        color: red;
+    }
+
+    .tag2:hover {
+        color: red;
+    }
+
+    .parent {
+        background-color: grey;
+        width: 300px;
+        border: 10px solid black;
+        padding: 30px;
+        margin: 20px;
+        display: flex;
+    }
+
+    .child {
+        background-color: grey;
+        width: 600px;
+        border: 10px solid black;
+        padding: 100px;
+        margin: 20px;
+        flex-grow: 1.5;
+    }
+
+    .fancy-button {
+        width: 200px;
+        height: 40px;
+        border: 2px solid black;
+        border-radius: 0.6em;
+    }
+
+    .fancy-button:active {
+        background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    }
+
+    select {
+        width: 100%;
+        padding: 16px 20px;
+        border: none;
+        border-radius: 4px;
+    }
+
+    .bottom-div {
+        width: 100%;
+        height: 200%;
+        border: 5px solid #8AC007;
+    }
+
+    p {
+        font-size: 30px;
+    }
+</style>
+
+<body>
+    <div>This is a div</div>
+    <div class="tag">This is a div with a class: tag</div>
+    <div class="tag2">This is a div with a class: tag with hover</div>
+    <p>This is a paragraphe</p>
+    <h1>This is an H1</h1>
+    <h2>This is an H2</h2>
+    <h3>This is an H3</h3>
+    <hr>
+    <div class="parent">This is a parent div<div class="child">This is a child div</div>
+        <div class="child">This is a child div 22222</div>
+    </div>
+    <hr>
+    <button> Click me </button>
+    <hr>
+    <button class="fancy-button"> Click me </button>
+    <hr>
+    <div style="width: 200px; margin-left: 50px;">
+        <form>
+            <select id="42" name="school">
+                <option value="Nadia">Nadia</option>
+                <option value="Karl">Karl</option>
+                <option value="Steven">Steven</option>
+            </select>
+        </form>
+    </div>
+    <textarea>Write</textarea>
+    <div class="bottom-div"></div>
+</body>
