@@ -18,13 +18,34 @@ body,html {
 	background-color: rgb(0, 0, 0); /* Master background color */
 }
 header {
-	background: #beadc2; /* color for background header */
+	/* background: #beadc2; color for background header */
+	background-image: url("imgs/Selection_002.png"); /* background image header */
 	padding: 20px 30px;
 	max-width: 940px;
 	margin: auto;
 }
 nav {
 	display: inline-block;
+}
+.name {
+	color: rgb(159, 226, 229);
+	position: relative;
+	left: 5%;
+	margin-left: 80px;
+	top: -45px;
+}
+.buttons{
+	position: relative;
+	left: 50%;
+	margin-left: 0px;
+	top: -85px;
+}
+.top{
+	/* background: #beadc2; */
+	/* padding: 20px 30px; */
+	max-width: 940px;
+	height: 100px;
+	margin: auto;
 }
 nav ul li a {
 	background: rgb(238, 238, 238); /* color button background menu */
@@ -95,13 +116,13 @@ aside > div {
 	display: inline-block;
 	vertical-align: middle;
 	font-size: 30px;
-	margin-right: 75px;
+	/* margin-right: 75px; */
 	color: #FFF; /* color txt Title */
 }
 #logo img {
 	width: 100px;
 	vertical-align: middle;
-	margin-right: 10px;
+	/* margin-right: 10px; */
 }
 body > section {
 	max-width: 1000px;
@@ -116,14 +137,40 @@ body > section {
 		padding: 30px 20px;
 	}
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 	main {
 		float: none;
-		width: 100%;
+		width: 80px;
 	}
 	aside {
 		float: none;
 		width: 100%;
 	}
+	.buttons{
+		position: relative;
+		left: 80px;
+		margin-left: -75px;
+		top: -20px;
+	}
+}
+@media screen and (max-width: 600px) {
+	main {
+		float: none;
+		width: 80px;
+	}
+	aside {
+		float: none;
+		width: 100%;
+	}
+	.top {
+		margin: auto;
+	}
 
 }
+@media screen and (max-width: 350px) {
+	.top{
+		height: auto;
+		margin: auto;
+	}
+}
+
