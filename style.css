@@ -119,6 +119,14 @@ aside > div {
 	/* margin-right: 75px; */
 	color: #FFF; /* color txt Title */
 }
+#logo {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 30px;
+	margin-right: 75px;
+	color: #FFF;
+	/* color txt Title */
+}
 #logo img {
 	width: 100px;
 	vertical-align: middle;
