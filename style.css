@@ -119,14 +119,6 @@ aside > div {
 	/* margin-right: 75px; */
 	color: #FFF; /* color txt Title */
 }
-#logo {
-	display: inline-block;
-	vertical-align: middle;
-	font-size: 30px;
-	margin-right: 75px;
-	color: #FFF;
-	/* color txt Title */
-}
 #logo img {
 	width: 100px;
 	vertical-align: middle;
@@ -148,7 +140,7 @@ body > section {
 @media screen and (max-width: 800px) {
 	main {
 		float: none;
-		width: 80px;
+		width: 100%;
 	}
 	aside {
 		float: none;
@@ -164,7 +156,7 @@ body > section {
 @media screen and (max-width: 600px) {
 	main {
 		float: none;
-		width: 80px;
+		width: 100%;
 	}
 	aside {
 		float: none;
@@ -181,4 +173,3 @@ body > section {
 		margin: auto;
 	}
 }
-
