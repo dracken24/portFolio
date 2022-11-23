@@ -93,9 +93,10 @@ nav ul {
 }
 main {
 	float: left;
-	width: 60%;
+	width: 100%;
 }
 aside {
+	font-size: x-large;
 	float: right;
 	width: 30%;
 	color: #211c29;
@@ -132,7 +133,7 @@ address {
 aside > div {
 	margin: 10px auto;
 	background: #93d8de; /* color side box */
-	min-height: 100px;
+	min-height: 80px;
 }
 #logo {
 	display: inline-block;
@@ -182,10 +183,10 @@ body > section {
 		float: none;
 		width: 100%;
 	}
-	aside {
+	/* aside {
 		float: none;
 		width: 100%;
-	}
+	} */
 	.buttons{
 		position: relative;
 		left: 80px;

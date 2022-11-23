@@ -16,7 +16,6 @@ input,select{vertical-align:middle}
 
 body,html {
 	background-color: rgb(0, 0, 0); /* Master background color */
-	/* padding: 20px 30px; */
 	max-width: 1000px;
 	margin: auto;
 }
@@ -225,10 +224,10 @@ body > section {
 	}
 
 }
-@media screen and (max-width: 350px) {
+/* @media screen and (max-width: 350px) {
 	/* .top{
 		height: auto;
 		margin: auto;
-	} */
+	} 
 	
-}
+} */
