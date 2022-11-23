@@ -19,37 +19,51 @@ body,html {
 }
 header {
 	/* background: #beadc2; color for background header */
-	background-image: url("imgs/Selection_002.png"); /* background image header */
+	/* background-image: url("imgs/Selection_002.png"); */
 	padding: 20px 30px;
-	max-width: 940px;
+	max-width: 1000px;
 	margin: auto;
+}
+strong {
+	color: #FFF;
 }
 nav {
 	display: inline-block;
+}
+.imgHead {
+	background-image: url("imgs/source-4280758_edited.jpg");
+	padding: 20px 30px;
+	max-width: 1000px;
+	max-height: 65px;
+	/* opacity: 50%; */
+	margin: auto;
+}
+.imgHead::before {
+	opacity: 50%;
 }
 .name {
 	color: rgb(159, 226, 229);
 	position: relative;
 	left: 5%;
 	margin-left: 80px;
-	top: -45px;
+	top: -62px;
 }
 .buttons{
 	position: relative;
-	left: 50%;
+	left: 40%;
 	margin-left: 0px;
-	top: -85px;
+	top: -145px;
 }
 .top{
 	/* background: #beadc2; */
 	/* padding: 20px 30px; */
-	max-width: 940px;
+	max-width: 1000px;
 	height: 100px;
 	margin: auto;
 }
 nav ul li a {
-	background: rgb(238, 238, 238); /* color button background menu */
-	padding: 2px 10px;
+	/* background: #93d8de; color button background menu */
+	padding: 35px 10px;
 	font-size: 20px;
 	text-decoration: none;
 	font-weight: bold;
@@ -57,15 +71,18 @@ nav ul li a {
 	border-radius: 10px;
 }
 nav ul li a:hover {
-	background: #FFF;
+	background: #93d8de;
 }
 nav ul li {
 	display: inline-block;
 	margin: 10px;
+
 }
 nav ul {
 	list-style: none;
+	position: top;
 }
+
 #pageContent {
 	max-width: 1000px;
 	margin: auto;
@@ -78,9 +95,11 @@ main {
 aside {
 	float: right;
 	width: 30%;
+	color: #211c29;
 }
 article {
-	border-bottom: 2px dotted rgb(102, 125, 125); /* Separate lines ........... */
+	border-bottom: 2px dotted #93d8de; /* Separate lines ........... */
+	color: #e9b48b;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
 }
@@ -95,7 +114,7 @@ main section {
 	
 }
 footer {
-	background: #beadc2; /* color footer box */
+	background: #93d8de; /* color footer box */
 	max-width: 1000px;
 	margin: auto;
 	clear: both;
@@ -109,7 +128,7 @@ address {
 }
 aside > div {
 	margin: 10px auto;
-	background: #beadc2; /* color side box */
+	background: #93d8de; /* color side box */
 	min-height: 100px;
 }
 #logo {
@@ -118,18 +137,36 @@ aside > div {
 	font-size: 30px;
 	/* margin-right: 75px; */
 	color: #FFF; /* color txt Title */
+	
 }
 #logo img {
-	width: 100px;
+	width: 120px;
+	vertical-align: middle;
+	
+}
+
+#logoC {
+	/* display: inline-block; */
+	vertical-align: middle;
+	font-size: 30px;
+	/* margin-right: 75px; */
+	color: #FFF;
+	/* color txt Title */
+	width: -50;
+}
+
+#logoC img {
+	width: 75px;
 	vertical-align: middle;
 	/* margin-right: 10px; */
 }
+
 body > section {
 	max-width: 1000px;
 	margin: auto;
 	padding: 30px 0px;
 	border-bottom: 1px solid #999; /* Line under header */
-	color: rgb(186, 184, 184); /* color text body */ 
+	/* color: rgb(239, 12, 12); /* color text body */  
 }
 
 @media screen and (max-width: 1000px) {
