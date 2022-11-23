@@ -16,13 +16,10 @@ input,select{vertical-align:middle}
 
 body,html {
 	background-color: rgb(0, 0, 0); /* Master background color */
-	/* padding: 20px 30px; */
 	max-width: 1000px;
 	margin: auto;
 }
 header {
-	/* background: #beadc2; color for background header */
-	/* background-image: url("imgs/Selection_002.png"); */
 	padding: 20px 0px;
 	max-width: 1000px;
 	margin: auto;
@@ -38,7 +35,6 @@ nav {
 	padding: 20px 30px;
 	max-width: 1000px;
 	max-height: 65px;
-	/* opacity: 50%; */
 	margin: auto;
 }
 .imgHead::before {
@@ -58,14 +54,11 @@ nav {
 	top: -145px;
 }
 .top{
-	/* background: #beadc2; */
-	/* padding: 20px 30px; */
 	max-width: 1000px;
 	height: 100px;
 	margin: auto;
 }
 nav ul li a {
-	/* background: #93d8de; color button background menu */
 	padding: 35px 10px;
 	font-size: 20px;
 	text-decoration: none;
@@ -138,7 +131,6 @@ aside > div {
 	display: inline-block;
 	vertical-align: middle;
 	font-size: 30px;
-	/* margin-right: 75px; */
 	color: #FFF; /* color txt Title */
 	
 }
@@ -149,27 +141,22 @@ aside > div {
 }
 
 #logoC {
-	/* display: inline-block; */
 	vertical-align: middle;
 	font-size: 30px;
-	/* margin-right: 75px; */
 	color: #FFF;
-	/* color txt Title */
 	width: -50;
 }
 
 #logoC img {
 	width: 75px;
 	vertical-align: middle;
-	/* margin-right: 10px; */
 }
 
 body > section {
 	max-width: 1000px;
 	margin: auto;
 	padding: 30px 0px;
-	border-bottom: 1px solid #999; /* Line under header */
-	/* color: rgb(239, 12, 12); /* color text body */  
+	border-bottom: 1px solid #999; /* Line under header */ 
 }
 
 @media screen and (max-width: 1000px) {
