@@ -31,7 +31,7 @@ nav {
 	display: inline-block;
 }
 .imgHead {
-	background-image: url("imgs/source-4280758_edited.jpg");
+	background-image: url("imgs/head00.jpg");
 	padding: 20px 30px;
 	max-width: 1000px;
 	max-height: 65px;
@@ -40,6 +40,14 @@ nav {
 }
 .imgHead::before {
 	opacity: 50%;
+}
+.imgFoot {
+	background-image: url("imgs/bottom00.png");
+	padding: 20px 30px;
+	max-width: 1000px;
+	max-height: 100px;
+	/* opacity: 50%; */
+	margin: auto;
 }
 .name {
 	color: rgb(159, 226, 229);
@@ -87,7 +95,7 @@ nav ul {
 }
 main {
 	float: left;
-	width: 100%;
+	width: 60%;
 }
 aside {
 	font-size: x-large;
@@ -112,11 +120,12 @@ main section {
 	
 }
 footer {
-	background: #93d8de; /* color footer box */
+	/* background: #93d8de; color footer box */
+	color: #a6f2fb;
 	max-width: 1000px;
 	margin: auto;
 	clear: both;
-	text-align: right;
+	text-align: left;
 }
 footer p {
 	padding: 20px;
@@ -127,7 +136,7 @@ address {
 aside > div {
 	margin: 10px auto;
 	background: #93d8de; /* color side box */
-	min-height: 80px;
+	min-height: 100px;
 }
 #logo {
 	display: inline-block;
@@ -171,10 +180,10 @@ body > section {
 		float: none;
 		width: 100%;
 	}
-	/* aside {
+	aside {
 		float: none;
 		width: 100%;
-	} */
+	}
 	.buttons{
 		position: relative;
 		left: 80px;
@@ -214,10 +223,10 @@ body > section {
 	}
 
 }
-@media screen and (max-width: 350px) {
+/* @media screen and (max-width: 350px) {
 	/* .top{
 		height: auto;
 		margin: auto;
-	} */
+	} 
 	
-}
+} */
