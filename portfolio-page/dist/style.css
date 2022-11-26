@@ -568,7 +568,7 @@ a:active {
 		background-position-x: 50%;
 	}
 }
-
+ 
 @keyframes silhouette-move-in {
 	from {
 		background-position-x: 0;
