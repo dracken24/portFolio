@@ -1,4 +1,4 @@
-/* Made by Yago Estévez (Twitter: @yagoestevez.com) */
+
 
 *,
 *::before,
@@ -35,13 +35,6 @@ a:hover,
 a:active {
   color: #f300b4;
 }
-
-
-
-
-
-
-
 
 
 
@@ -279,13 +272,6 @@ a:active {
 
 
 
-
-
-
-
-
-
-
 /*****************
  *****************
     NAV STYLES
@@ -379,13 +365,6 @@ a:active {
     background: #181d23aa;
   }
 }
-
-
-
-
-
-
-
 
 
 
@@ -613,13 +592,6 @@ a:active {
 
 
 
-
-
-
-
-
-
-
 /*****************
  *****************
    ABOUT STYLES
@@ -658,6 +630,7 @@ a:active {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* color: #096fec; */
 }
 
 #about .title h3 {
@@ -722,14 +695,6 @@ a:active {
     padding: 10rem 2rem 8rem;
   }
 }
-
-
-
-
-
-
-
-
 
 
 /*****************
@@ -915,13 +880,6 @@ a:active {
 }
 
 
-
-
-
-
-
-
-
 /*****************
  *****************
    CONTACT STYLES
@@ -1056,13 +1014,6 @@ input[type="submit"]:focus {
     padding: 0;
   }
 }
-
-
-
-
-
-
-
 
 
 

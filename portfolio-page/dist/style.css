@@ -1,4 +1,4 @@
-/* Made by Yago Estévez (Twitter: @yagoestevez.com) */
+
 
 *,
 *::before,
@@ -35,14 +35,6 @@ a:hover,
 a:active {
 	color: #f300b4;
 }
-
-
-
-
-
-
-
-
 
 
 /*****************
@@ -373,15 +365,6 @@ a:active {
 }
 
 
-
-
-
-
-
-
-
-
-
 /*****************
  *****************
 		NAV STYLES
@@ -478,14 +461,6 @@ a:active {
 
 
 
-
-
-
-
-
-
-
-
 /*****************
  *****************
 	 HEADER STYLES
@@ -512,7 +487,7 @@ a:active {
 	width: 100%;
 	min-height: 100vh;
 	z-index: -1;
-	opacity: 0;
+	opacity: 0%;
 	-webkit-animation: stars-move-in 1500ms 300ms forwards;
 					animation: stars-move-in 1500ms 300ms forwards;
 }
@@ -578,7 +553,7 @@ a:active {
 	background: url(/home/dracken24/Desktop/prog/portFolio/imgs/backWarior00.svg?sanitize=true) bottom left no-repeat;
 	background-size: 25%;
 	width: 50%;
-	height: 50%;
+	height: 70%;
 	opacity: 0;
 	-webkit-animation: silhouette-move-in 1000ms 800ms forwards;
 					animation: silhouette-move-in 1000ms 800ms forwards;
@@ -779,14 +754,6 @@ a:active {
 }
 
 
-
-
-
-
-
-
-
-
 /*****************
  *****************
 	 ABOUT STYLES
@@ -802,7 +769,7 @@ a:active {
 	-webkit-clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
 					clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
 	z-index: 5;
-	background: #fafafa url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Author_BG.jpg) center right no-repeat;
+	background: #07000b url(/home/dracken24/Desktop/prog/portFolio/imgs/bgDragon01.jpg) center no-repeat;
 	background-attachment: fixed;
 }
 
@@ -826,6 +793,7 @@ a:active {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	color: #d67ed8;
 }
 
 #about .title h3 {
@@ -849,7 +817,7 @@ a:active {
 
 #about p {
 	padding-bottom: 1.5rem;
-	color: #555;
+	color: rgb(27, 5, 39);
 	line-height: 1.9rem;
 }
 
@@ -891,13 +859,6 @@ a:active {
 		padding: 10rem 2rem 8rem;
 	}
 }
-
-
-
-
-
-
-
 
 
 
@@ -1085,12 +1046,6 @@ a:active {
 
 
 
-
-
-
-
-
-
 /*****************
  *****************
 	 CONTACT STYLES
@@ -1235,13 +1190,6 @@ input[type="submit"]:focus {
 		padding: 0;
 	}
 }
-
-
-
-
-
-
-
 
 
 
