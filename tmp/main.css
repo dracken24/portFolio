@@ -15,9 +15,15 @@ hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padd
 input,select{vertical-align:middle}
 
 body,html {
-	background-color: rgb(0, 0, 0); /* Master background color */
+	background-color: #0B1321; /* Master background color */
+	background-image: url("imgs/bgDragon01.jpg");
+	background-position: center;
+
 	max-width: 1000px;
 	margin: auto;
+}
+body::before{
+	opacity: 50%;
 }
 header {
 	padding: 20px 0px;
