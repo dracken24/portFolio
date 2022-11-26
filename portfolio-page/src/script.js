@@ -230,7 +230,7 @@ const Projects = props => {
         <div className="projects-wrapper">
           <Project
             title="Game Engine."
-            img={'/home/dracken24/Desktop/prog/portFolio/imgs/onyx00.jpg'}
+            img={'../../imgs/onyx00.jpg'}
             tech="CS css react node"
             link="https://yagoestevez-anon-msg-board.glitch.me/"
             repo="https://github.com/yagoestevez/anonymous-message-board"

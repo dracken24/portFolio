@@ -176,7 +176,7 @@ const Projects = props => {
 		React.createElement("div", { className: "projects-wrapper" }, /*#__PURE__*/
 		React.createElement(Project, {
 			title: "Game Engine.",
-			img: "/home/dracken24/Desktop/prog/portFolio/imgs/onyx00.jpg",
+			img: "../../imgs/onyx00.jpg",
 			// tech: "C++ CS react node",
 			link: "https://github.com/dracken24/OnyXEngine/tree/main/OnyXEngine",
 			repo: "https://github.com/dracken24/OnyXEngine/tree/main/OnyXEngine" }, /*#__PURE__*/
@@ -192,7 +192,7 @@ const Projects = props => {
 
 		React.createElement(Project, {
 			title: "RPG Core system.",
-			img: '/home/dracken24/Desktop/prog/portFolio/imgs/resistance_03.jpg',
+			img: '../../imgs/resistance_03.jpg',
 			// tech: "js node css",
 			link: "https://github.com/yagoestevez/fcc-stock-price-checker",
 			repo: "https://github.com/yagoestevez/fcc-stock-price-checker" }, /*#__PURE__*/
@@ -208,7 +208,7 @@ const Projects = props => {
 
 		React.createElement(Project, {
 			title: "Cub 3D",
-			img: '/home/dracken24/Desktop/prog/portFolio/imgs/cub3d00.jpg',
+			img: '../../imgs/cub3d00.jpg',
 			// tech: "js node css",
 			link: "https://github.com/dracken24/cub3d",
 			repo: "https://github.com/dracken24/cub3d" }, /*#__PURE__*/
@@ -222,7 +222,7 @@ const Projects = props => {
 
 		React.createElement(Project, {
 			title: "Design 3D",
-			img: '/home/dracken24/Desktop/prog/portFolio/imgs/Slide10.jpg',
+			img: '../../imgs/Slide10.jpg',
 			// tech: "js node css",
 			link: "https://github.com/dracken24",
 			repo: "https://github.com/dracken24" }, /*#__PURE__*/
