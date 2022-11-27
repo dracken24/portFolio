@@ -310,7 +310,7 @@ const SocialLinks = props => {
 			href: "https://www.linkedin.com/in/nadia-desjardins-a57b9b247/",
 			target: "_blank",
 			rel: "noopener noreferrer",
-			title: "Link to author's Twitter profile" },
+			title: "Link to author's Linkedin profile" },
 
 		' ', /*#__PURE__*/
 		React.createElement("i", { className: "fab fa-linkedin" })), /*#__PURE__*/
