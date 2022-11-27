@@ -33,7 +33,7 @@ a:visited {
 
 a:hover,
 a:active {
-	color: #f300b4;
+	color: #f300b4; 
 }
 
 
@@ -793,7 +793,7 @@ a:active {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	color: #d67ed8;
+	color: #f300b4;
 }
 
 #about .title h3 {
