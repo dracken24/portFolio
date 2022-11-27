@@ -178,7 +178,7 @@ const Projects = props => {
 			title: "Game Engine.",
 			img: "imgs/onyx00.jpg",
 			// tech: "C++ CS react node",
-			link: "https://github.com/dracken24/OnyXEngine/tree/main/OnyXEngine",
+			link: "https://www.linkedin.com/feed/update/urn:li:activity:7000513669012877312",
 			repo: "https://github.com/dracken24/OnyXEngine/tree/main/OnyXEngine" }, /*#__PURE__*/
 
 		React.createElement("small", null, "Built using C++ on vsCode."), /*#__PURE__*/
