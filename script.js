@@ -177,10 +177,10 @@ const Projects = props => {
 
 		React.createElement(Project, {
 			title: "Vulkan Engine.",
-			img: "imgs/puit_00.png",
+			img: "imgs/puit_01.png",
 			// tech: "C++ CS react node",
-			link: "https://www.linkedin.com/feed/update/urn:li:activity:7000513669012877312",
-			repo: "https://github.com/dracken24/OnyXEngine/tree/main/OnyXEngine" }, /*#__PURE__*/
+			link: "https://github.com/dracken24/DrackenLib_Vulkan_Project",
+			repo: "https://github.com/dracken24/DrackenLib_Vulkan_Project" }, /*#__PURE__*/
 
 		React.createElement("small", null, "Little engine made with only Vulkan."), /*#__PURE__*/
 
