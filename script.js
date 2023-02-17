@@ -213,14 +213,14 @@ const Projects = props => {
 			title: "RPG Core system.",
 			img: 'imgs/resistance_03.jpg',
 			// tech: "js node css",
-			link: "https://github.com/yagoestevez/fcc-stock-price-checker",
-			repo: "https://github.com/yagoestevez/fcc-stock-price-checker" }, /*#__PURE__*/
+			link: "https://github.com/dracken24/RPG_Resistance",
+			repo: "https://github.com/dracken24/RPG_Resistance" }, /*#__PURE__*/
 
 		React.createElement("small", null, "Built using Unity and C# on vsCode"), /*#__PURE__*/
 
 
 		React.createElement("p", null, "Game edited in Unity. Top view and raycasting point and click \
-			with navigation mesh like Diablo.")), /*#__PURE__*/
+			with navigation mesh like Diablo. Enemy ia. Attack if your close.")), /*#__PURE__*/
 
 
 //*********************************************************************************************************************************/
