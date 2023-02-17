@@ -185,8 +185,8 @@ const Projects = props => {
 		React.createElement("small", null, "Little engine made with only Vulkan."), /*#__PURE__*/
 
 
-		React.createElement("p", null, "To see how things work, I made a small program with Vulkan \
-			 to communicate with the graphics card.")), /*#__PURE__*/
+		React.createElement("p", null, "To see how things work, I made a small program with Vulkan and glfw \
+			 to communicate with the graphics card. Import .obj or textures by drag and drop. Rotate, scale and resize model with key events.")), /*#__PURE__*/
 
 
 //*********************************************************************************************************************************/
@@ -203,7 +203,7 @@ const Projects = props => {
 
 
 		React.createElement("p", null, "It's a really interesting project that helped me improve \
-			my C++. This project is still ongoing.")), /*#__PURE__*/
+			my C++. This project is still ongoing. Little game engine made with basic physic and movements.")), /*#__PURE__*/
 
 
 //*********************************************************************************************************************************/
