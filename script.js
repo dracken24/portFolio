@@ -242,13 +242,13 @@ const Projects = props => {
 
 		React.createElement(Project, {
 			title: "Design 3D",
-			img: 'imgs/Slide10.jpg',
+			img: 'imgs/Anime_Girl_00.0.png',
 			// tech: "js node css",
 			link: "https://github.com/dracken24",
 			repo: "https://github.com/dracken24" }, /*#__PURE__*/
 
-		React.createElement("small", null, "Bass guitar"), /*#__PURE__*/
-		React.createElement("p", null, "Bass guitar GNL-LB100 made with 3ds max.")), /*#__PURE__*/
+		React.createElement("small", null, "Character"), /*#__PURE__*/
+		React.createElement("p", null, "Anime character girl")), /*#__PURE__*/
 
 		))));
 
