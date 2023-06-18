@@ -15,7 +15,7 @@ const Menu = props => {
 		React.createElement("a", { href: "#welcome-section", onClick: props.toggleMenu }, "HOME")), /*#__PURE__*/
 
 		React.createElement("li", null, /*#__PURE__*/
-		React.createElement("a", { href: "#about", onClick: props.toggleMenu }, "ABOUT")), /*#__PURE__*/
+		React.createElement("a", { href: "#about", onClick: props.toggleMenu }, "A PROPOS")), /*#__PURE__*/
 
 		React.createElement("li", null, /*#__PURE__*/
 		React.createElement("a", { href: "#projects", onClick: props.toggleMenu }, "PORTFOLIO")), /*#__PURE__*/
@@ -61,15 +61,15 @@ const Header = props => {
 		React.createElement("div", { className: "moon" }), /*#__PURE__*/
 		React.createElement("div", { className: "container" }, /*#__PURE__*/
 		React.createElement("h1", null, /*#__PURE__*/
-		React.createElement("span", { className: "line" }, "I do"), /*#__PURE__*/
-		React.createElement("span", { className: "line" }, "object programming"), /*#__PURE__*/
+		React.createElement("span", { className: "line" }, "Spécialité"), /*#__PURE__*/
+		React.createElement("span", { className: "line" }, "Programmation ojets"), /*#__PURE__*/
 		React.createElement("span", { className: "line" }, /*#__PURE__*/
-		React.createElement("span", { className: "color" }, "&"), " more.")), /*#__PURE__*/
+		React.createElement("span", { className: "color" }, "&"), " plus.")), /*#__PURE__*/
 
 
 		React.createElement("div", { className: "buttons" }, /*#__PURE__*/
-		React.createElement("a", { href: "#projects" }, "my portfolio"), /*#__PURE__*/
-		React.createElement("a", { href: "#contact", className: "cta" }, "get in touch")))));
+		React.createElement("a", { href: "#projects" }, "mon portfolio"), /*#__PURE__*/
+		React.createElement("a", { href: "#contact", className: "cta" }, "contactez-moi")))));
 
 };
 
@@ -84,28 +84,28 @@ const About = props => {
 		React.createElement("div", { className: "wrapper" }, /*#__PURE__*/
 		React.createElement("article", null, /*#__PURE__*/
 		React.createElement("div", { className: "title" }, /*#__PURE__*/
-		React.createElement("h3", null, "Who's that girl?"), /*#__PURE__*/
+		React.createElement("h3", null, "Qui suis-je?"), /*#__PURE__*/
 		React.createElement("p", { className: "separator" })), /*#__PURE__*/
 
 		React.createElement("div", { className: "desc full" }, /*#__PURE__*/
-		React.createElement("h4", { className: "subtitle" }, "My name is Nadia."), /*#__PURE__*/
-		React.createElement("p", null, "I am a C language programmer from the beautiful region of Quebec in Canada."), /*#__PURE__*/
+		React.createElement("h4", { className: "subtitle" }, "Je m'appelle Nadia"), /*#__PURE__*/
+		React.createElement("p", null, "Je suis une programmeuse spécialisée en langage C de la belle région de Québec au Canada."), /*#__PURE__*/
 
-		React.createElement("p", null, "I love complex challenges and trying to find the best way to solve them.I constantly want to learn.I also have a course in 3D modeling for video games.Come challenge me.")), /*#__PURE__*/
+		React.createElement("p", null, "J'aime les défis complexes et essayer de trouver la meilleure façon de les résoudre. J'ai constamment envie d'apprendre. J'ai aussi un cours de modélisation 3D pour les jeux vidéo.")), /*#__PURE__*/
 
 		React.createElement("div", { className: "title" }, /*#__PURE__*/
-		React.createElement("h3", null, "What does she do?"), /*#__PURE__*/
+		React.createElement("h3", null, "Qu'est-ce que je fais?"), /*#__PURE__*/
 		React.createElement("p", { className: "separator" })), /*#__PURE__*/
 
 		React.createElement("div", { className: "desc" }, /*#__PURE__*/
-		React.createElement("h4", { className: "subtitle" }, "I'm a programmer."), /*#__PURE__*/
-		React.createElement("p", null, "I'm a back-end developer. I mainly work in C and C++ on vsCode. I also study C# which I also find very interesting."), /*#__PURE__*/
+		React.createElement("h4", { className: "subtitle" }, "Je suis programmeuse"), /*#__PURE__*/
+		React.createElement("p", null, "Je suis développeuse back-end. Je travaille principalement en C et C++ sur vsCode. Je fais également du C# axé vers Unity ou avec le framework .NET axé vers Xamarin pour le développement d'application multi-platform."), /*#__PURE__*/
 
-		React.createElement("p", null, "I am familiar with Makefiles and github which are very practical to save time")), /*#__PURE__*/
+		React.createElement("p", null, "Je de bonnes connaissances les Makefiles et github ainsi que des bases en php, javascipt, bash et gestion de base de donné SQL")), /*#__PURE__*/
 
 		React.createElement("div", { className: "desc" }, /*#__PURE__*/
-		React.createElement("h4", { className: "subtitle" }, "3D designer."), /*#__PURE__*/
-		React.createElement("p", null, "I have a college education in 3D design. I mainly work with 3D StudioMax and Blender. I also have a good knowledge of the Unity game engine. I love doing level design."), /*#__PURE__*/
+		React.createElement("h4", { className: "subtitle" }, "3D Designer"), /*#__PURE__*/
+			React.createElement("p", null, "J'ai une formation collégiale en design 3D. Je travaille principalement avec 3D StudioMax et Blender. J'ai également une bonne connaissance du moteur de jeu Unity. J'adore faire du level design."), /*#__PURE__*/
 
 		)))));
 };
@@ -162,12 +162,12 @@ const Projects = props => {
 		React.createElement("section", { id: "projects" }, /*#__PURE__*/
 		React.createElement("div", { className: "projects-container" }, /*#__PURE__*/
 		React.createElement("div", { className: "heading" }, /*#__PURE__*/
-		React.createElement("h3", { className: "title" }, "My Works"), /*#__PURE__*/
+		React.createElement("h3", { className: "title" }, "Mes Réalisations"), /*#__PURE__*/
 		React.createElement("p", { className: "separator" }), /*#__PURE__*/
-		React.createElement("p", { className: "subtitle" }, "Here's a list of ", /*#__PURE__*/
-			React.createElement("u", null, "most"), " of the projects I've been working on lately. Some during my studies at ",
+		React.createElement("p", { className: "subtitle" }, "Voici une liste des ", /*#__PURE__*/
+			React.createElement("u", null, ""), "projets sur lesquels j'ai travaillé dernièrement. Certains durant mes études à l'école",
 		' ', /*#__PURE__*/
-			React.createElement("a", { href: "https://42quebec.com/en/home/", target: "_blank", rel: "noopener noreferrer" }, "school 42"), ", and others as personal projects.")), /*#__PURE__*/
+		React.createElement("a", { href: "https://42quebec.com/en/home/", target: "_blank", rel: "noopener noreferrer" }, "42 Québec"), ", et d'autres comme projets personnels.")), /*#__PURE__*/
 
 
 //*********************************************************************************************************************************/
@@ -176,51 +176,51 @@ const Projects = props => {
 		React.createElement("div", { className: "projects-wrapper" }, /*#__PURE__*/
 
 		React.createElement(Project, {
-			title: "Vulkan Engine.",
+			title: "Vulkan Engine",
 			img: "imgs/puit_01.png",
 			// tech: "C++ CS react node",
 			link: "https://github.com/dracken24/DrackenLib_Vulkan_Project",
 			repo: "https://github.com/dracken24/DrackenLib_Vulkan_Project" }, /*#__PURE__*/
 
-		React.createElement("small", null, "Little engine made with only Vulkan."), /*#__PURE__*/
+			React.createElement("small", null, "Petit moteur de rendu graphique fabriqué uniquement avec Vulkan."), /*#__PURE__*/
 
 
-		React.createElement("p", null, "To see how things work, I made a small program with Vulkan and glfw \
-			 to communicate with the graphics card. Import .obj or textures by drag and drop. Rotate, scale and resize model with key events.")), /*#__PURE__*/
+			React.createElement("p", null, "Pour voir comment les choses fonctionnent, j'ai fait un petit programme avec Vulkan et glfw \
+			pour communiquer avec la carte graphique. Importez des .obj ou des textures par drag and drop. Faire pivoter, mettre à l'échelle et redimensionner le modèle avec des key events.")), /*#__PURE__*/
 
 
 //*********************************************************************************************************************************/
 
 
 		React.createElement(Project, {
-			title: "Game Engine.",
+			title: "Game Engine",
 			img: "imgs/onyx00.jpg",
 			// tech: "C++ CS react node",
 			link: "https://www.linkedin.com/feed/update/urn:li:activity:7000513669012877312",
 			repo: "https://github.com/dracken24/OnyXEngine/tree/main/OnyXEngine" }, /*#__PURE__*/
 
-		React.createElement("small", null, "Built using C++ on vsCode."), /*#__PURE__*/
+		React.createElement("small", null, "Fait en C++ sur vsCode."), /*#__PURE__*/
 
 
-		React.createElement("p", null, "It's a really interesting project that helped me improve \
-			my C++. This project is still ongoing. Little game engine made with basic physic and movements.")), /*#__PURE__*/
+			React.createElement("p", null, "C'est un projet vraiment intéressant qui m'a aidé à m'améliorer \
+			mon C++. Ce projet est toujours en cours. Petit moteur de jeu fait avec la physique et les mouvements de base.")), /*#__PURE__*/
 
 
 //*********************************************************************************************************************************/
 
 
 		React.createElement(Project, {
-			title: "RPG Core system.",
+			title: "RPG Core system",
 			img: 'imgs/resistance_03.jpg',
 			// tech: "js node css",
 			link: "https://github.com/dracken24/RPG_Resistance",
 			repo: "https://github.com/dracken24/RPG_Resistance" }, /*#__PURE__*/
 
-		React.createElement("small", null, "Built using Unity and C# on vsCode"), /*#__PURE__*/
+			React.createElement("small", null, "Construit avec Unity et C# sur vsCode"), /*#__PURE__*/
 
 
-		React.createElement("p", null, "Game edited in Unity. Top view and raycasting point and click \
-			with navigation mesh like Diablo. Enemy ia. Attack if your close.")), /*#__PURE__*/
+			React.createElement("p", null, "Jeu édité dans Unity. Vue de dessus et raycasting point and click \
+				avec un navigation mesh comme Diablo. Les ennemis vous attaque si vous êtes trop proche.")), /*#__PURE__*/
 
 
 //*********************************************************************************************************************************/
@@ -234,8 +234,21 @@ const Projects = props => {
 			repo: "https://github.com/dracken24/cub3d" }, /*#__PURE__*/
 
 		React.createElement("small", null, "Pure C "), /*#__PURE__*/
-		React.createElement("p", null, "Game entirely made in C with images and raycasting. School project.")), /*#__PURE__*/
+			React.createElement("p", null, "Jeu entièrement réalisé en C avec images et raycasting. Projet scolaire.")), /*#__PURE__*/
 
+//*********************************************************************************************************************************/
+
+
+			React.createElement(Project, {
+				title: "Application",
+				img: 'imgs/app_annaLoup.png',
+				// tech: "js node css",
+				link: "https://github.com/dracken24/App_Phare/tree/main/FindYourPath",
+				repo: "https://github.com/dracken24/App_Phare/tree/main/FindYourPath"
+			}, /*#__PURE__*/
+
+				React.createElement("small", null, "Organisme communautaire"), /*#__PURE__*/
+				React.createElement("p", null, "Voici une application réalisée en c# avec l'API Xamarin. Le but est de regrouper tous les services pertinents pour les filles qui sortes de prisons pour faciliter leur réinsertion sociale.")), /*#__PURE__*/
 
 //*********************************************************************************************************************************/
 
@@ -252,7 +265,11 @@ const Projects = props => {
 
 		))));
 
-};
+
+
+};//*********************************************************************************************************************************/
+
+
 
 
 /***********************
@@ -265,24 +282,23 @@ const Contact = props => {
 		React.createElement("div", { className: "container" }, /*#__PURE__*/
 		React.createElement("div", { className: "heading-wrapper" }, /*#__PURE__*/
 		React.createElement("div", { className: "heading" }, /*#__PURE__*/
-		React.createElement("p", { className: "title" }, "Want to: ", /*#__PURE__*/
-		React.createElement("br", null), "contact me?"), /*#__PURE__*/
+		React.createElement("p", { className: "title" }, "Contactez-moi"), /*#__PURE__*/
 
 
 		React.createElement("p", { className: "separator" }), /*#__PURE__*/
-		React.createElement("p", { className: "subtitle" }, "You can send an email to: ",
+			React.createElement("p", { className: "subtitle" }, "Vous pouven m'envoyé un e-mail à: ",
 		'', /*#__PURE__*/
 		React.createElement("span", { className: "mail" }, "dracken24", /*#__PURE__*/
 		React.createElement("i", { className: "fas fa-at at" }), "gmail", /*#__PURE__*/
 		React.createElement("i", { className: "fas fa-circle dot" }), "com")),
 		
 
-		React.createElement("p", { className: "subtitle" }, "Or "),
+		React.createElement("p", { className: "subtitle" }, "Ou "),
 
 
-		React.createElement("p", { className: "subtitle" }, "My Linkedin at: ",
+		React.createElement("p", { className: "subtitle" }, "Mon Linkedin à: ",
 		'', /*#__PURE__*/
-		React.createElement("span", { className: "mail" }, "https://www.linkedin.com/in/nadia-desjardins-a57b9b247"))
+		React.createElement("span", { className: "mail" }, "https://www.linkedin.com/in/nadia-desjardins-a57b9b247")),
 		
 		), /*#__PURE__*/
 
@@ -313,7 +329,7 @@ const Footer = props => {
 	return /*#__PURE__*/(
 		React.createElement("footer", null, /*#__PURE__*/
 		React.createElement("div", { className: "wrapper" }, /*#__PURE__*/
-		React.createElement("h3", null, "THANKS FOR VISITING"), /*#__PURE__*/
+		React.createElement("h3", null, "MERCI DE VOTRE VISITE"), /*#__PURE__*/
 		React.createElement("p", null, "\xA9 ", new Date().getFullYear(), " Yago Est\xE9vez."), /*#__PURE__*/
 		React.createElement(SocialLinks, null))));
 };
