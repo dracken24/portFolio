@@ -1,0 +1,15 @@
+Bonjour,
+Je suis une programmeuse spécialisée en langage C de la région de Québec au Canada.
+
+J'aime les défis complexes et essayer de trouver la meilleure façon de les résoudre. J'ai constamment envie d'apprendre. J'ai aussi un cours de modélisation 3D pour les jeux vidéo.
+
+Je suis développeuse back-end. Je travaille principalement en C et C++ sur vsCode. Je fais également du C# axé vers Unity ou avec le framework .NET axé vers Xamarin pour le développement d'application multi-platform.
+
+Je de bonnes connaissances les Makefiles et github ainsi que des bases en php, javascipt, bash et gestion de base de donné SQL
+
+Au plaisir de pouvoir discuter avec vous.
+
+Nadia Desjardins
+Linkedin: https://www.linkedin.com/in/nadia-desjardins-a57b9b247/
+Portfolio: https://deft-fairy-a0bdc2.netlify.app/
+Github: https://github.com/dracken24
