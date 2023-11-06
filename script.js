@@ -212,8 +212,8 @@ React.createElement(Project, {
 	title: "SporeFall",
 	img: "imgs/BG Card Game 00.png",
 	// tech: "C++ CS react node",
-	link: "https://github.com/dracken24/DrackenLib_Vulkan_Project",
-	repo: "https://github.com/dracken24/DrackenLib_Vulkan_Project" }, /*#__PURE__*/
+	link: "https://www.linkedin.com/feed/update/urn:li:activity:7114725594730270721/",
+	repo: "https://www.linkedin.com/feed/update/urn:li:activity:7117283152640761856/" }, /*#__PURE__*/
 
 	React.createElement("small", null, "Jeu de cartes et exploration en équipe."), /*#__PURE__*/
 
