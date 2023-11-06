@@ -208,6 +208,22 @@ const Projects = props => {
 
 //*********************************************************************************************************************************/
 
+React.createElement(Project, {
+	title: "SporeFall",
+	img: "imgs/BG Card Game 00.png",
+	// tech: "C++ CS react node",
+	link: "https://github.com/dracken24/DrackenLib_Vulkan_Project",
+	repo: "https://github.com/dracken24/DrackenLib_Vulkan_Project" }, /*#__PURE__*/
+
+	React.createElement("small", null, "Jeu de cartes et exploration en équipe."), /*#__PURE__*/
+
+
+	React.createElement("p", null, "Voici un gros projet sur lequel je travaille présentement avec une équipe de graphistes et un artiste sonore \
+	. Cèst un jeu de carte en équipe avec de lèxploration spatiale. Développé en C# dans Unity. Cèst une grosse gestion de UI et de parsing")), /*#__PURE__*/
+
+
+//*********************************************************************************************************************************/
+
 
 		React.createElement(Project, {
 			title: "RPG Core system",
